@@ -31,6 +31,7 @@ RUN apt-get install -y \
 		mc \
 ;
 RUN docker-php-ext-enable xdebug;
+RUN docker-php-ext-enable xsl;
 
 #update
 
